@@ -14,22 +14,28 @@
     <section class="game">
       <div class="container">
         <div class="card">
-          <nav class="card-nav">
-            <div class="card-nav__item">
+          <nav class="card-triggers">
+            <div class="card-triggers__tab">
               <img src="img/tooltip.png" alt="tooltip" />
-              <a class="category" href="javascript:void(0);">Information</a>
+              <a class="card-triggers__item category" href="#tab-1"
+                >Information</a
+              >
             </div>
-            <div class="card-nav__item">
+            <div class="card-triggers__tab">
               <img src="img/card.png" alt="card" />
-              <a class="category" href="javascript:void(0);">Rating info</a>
+              <a class="card-triggers__item category" href="#tab-2"
+                >Rating info</a
+              >
             </div>
-            <div class="card-nav__item">
+            <div class="card-triggers__tab">
               <img src="img/basket.png" alt="basket" />
-              <a class="category" href="javascript:void(0);">Where to buy</a>
+              <a class="card-triggers__item category" href="#tab-3"
+                >Where to buy</a
+              >
             </div>
           </nav>
-          <div class="card-body">
-            <div class="card-body__img">
+          <div id="tab-1" class="card-content">
+            <div class="card-content__img">
               <img class="img-game" src="img/farCry4.png" alt="farCry4" />
               <div class="rating">
                 <div class="rating__star">
@@ -59,8 +65,8 @@
                 </div>
               </div>
             </div>
-            <!-- /.card-body__img -->
-            <div class="card-body__description">
+            <!-- /.card-content__img -->
+            <div class="card-content__description">
               <div class="heading">
                 <div class="name">
                   <h1 class="title">FarCry 4</h1>
@@ -86,13 +92,99 @@
               </div>
               <!-- /game-footer -->
             </div>
-            <!-- /.card-body__description -->
+            <!-- /.card-content__description -->
           </div>
-          <!-- /.card-body -->
+          <!-- /.card-content -->
+          <div id="tab-2" class="card-content">
+            <div class="card-content__img">
+              <img class="img-game" src="img/farCry4.png" alt="farCry4" />
+              <div class="rating">
+                <div class="rating__star">
+                  <a href="/"
+                    ><img src="img/star-full.png" alt="star-full"
+                  /></a>
+                </div>
+                <div class="rating__star">
+                  <a href="/"
+                    ><img src="img/star-full.png" alt="star-full"
+                  /></a>
+                </div>
+                <div class="rating__star">
+                  <a href="/"
+                    ><img src="img/star-full.png" alt="star-full"
+                  /></a>
+                </div>
+                <div class="rating__star">
+                  <a href="/"
+                    ><img src="img/star-full.png" alt="star-full"
+                  /></a>
+                </div>
+                <div class="rating__star">
+                  <a href="/"
+                    ><img src="img/star-empty.png" alt="star-empty"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <!-- /.card-content__img -->
+            <div class="card-content__description">
+              <div class="heading">
+                <div class="name">
+                  <h1 class="title">FarCry 4</h1>
+                </div>
+                <!-- /name -->
+                <div class="score">
+                  <img class="score" src="img/score.png" alt="score" />
+                </div>
+              </div>
+              <!-- /heading -->
+              <p class="about">
+                In Far Cry 4, players find themselves in Kyrat, a breathtaking,
+                perilous and wild region of the Hima layas struggling under the
+                regime of a despotic self-appointed king.
+              </p>
+            </div>
+            <!-- /.card-content__description -->
+          </div>
+          <!-- /.card-content -->
+          <div id="tab-3" class="card-content">
+            <div class="card-content__img">
+              <img class="img-game" src="img/farCry4.png" alt="farCry4" />
+            </div>
+            <!-- /.card-content__img -->
+            <div class="card-content__description">
+              <div class="heading">
+                <div class="name">
+                  <h1 class="title">FarCry 4</h1>
+                </div>
+                <!-- /name -->
+                <div class="score">
+                  <img class="score" src="img/score.png" alt="score" />
+                </div>
+              </div>
+              <!-- /heading -->
+              <p class="about">
+                You can by this game by the link that you see above.
+              </p>
+              <div class="game-footer">
+                <div class="cost">
+                  <p class="cost__discout">20% off!</p>
+                  <p class="cost__price">$59.96</p>
+                </div>
+                <a href="javascript:void(0);" class="btn">Buy it now</a>
+              </div>
+              <!-- /game-footer -->
+            </div>
+            <!-- /.card-content__description -->
+          </div>
+          <!-- /.card-content -->
         </div>
         <!-- /.card -->
       </div>
       <!-- /container -->
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="js/jquery-3.5.1.js" defer></script> -->
+    <script src="js/main.js" defer></script>
   </body>
 </html>
