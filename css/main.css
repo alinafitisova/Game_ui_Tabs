@@ -65,7 +65,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 37px 62px 0px 73px;
+  padding: 34px 49px 0px 58px;
 }
 
 @media screen and (max-width: 948px) {
@@ -87,16 +87,6 @@ body {
 }
 
 .card-triggers__tab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   opacity: 0.702;
 }
 
@@ -107,12 +97,34 @@ body {
   transition: 0.3s;
 }
 
+.card-triggers__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
 .category {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  display: block;
-  color: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #b7bacd;
   margin-top: 12px;
   border-bottom: 2px solid transparent;
   padding-bottom: 28px;
@@ -144,6 +156,7 @@ body {
 .card-content {
   display: none;
   padding: 55px 47px 53px 49px;
+  min-height: 427px;
 }
 
 .card-content__img {
@@ -179,6 +192,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   padding: 55px 47px 53px 49px;
+  min-height: 427px;
 }
 
 @media screen and (max-width: 900px) {
@@ -246,6 +260,7 @@ body {
 .about {
   line-height: 22px;
   margin-bottom: 61px;
+  max-width: 330px;
 }
 
 .game-footer {
